@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51948E1C1AEE91E000D29D31 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51948E1B1AEE91E000D29D31 /* NavigationViewController.m */; };
 		51DA48881AEE7FC200931C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48871AEE7FC200931C49 /* main.m */; };
 		51DA488B1AEE7FC200931C49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA488A1AEE7FC200931C49 /* AppDelegate.m */; };
 		51DA488E1AEE7FC200931C49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA488D1AEE7FC200931C49 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		51DA48931AEE7FC200931C49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DA48921AEE7FC200931C49 /* Images.xcassets */; };
 		51DA48961AEE7FC200931C49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51DA48941AEE7FC200931C49 /* LaunchScreen.xib */; };
 		51DA48A21AEE7FC200931C49 /* SplitCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48A11AEE7FC200931C49 /* SplitCodeTests.m */; };
+		51DA48B21AEE828B00931C49 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48B11AEE828B00931C49 /* SplitViewController.m */; };
+		51DA48B51AEE82A000931C49 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48B41AEE82A000931C49 /* SelectViewController.m */; };
+		51DA48B81AEE82AB00931C49 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48B71AEE82AB00931C49 /* ColorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		51948E1A1AEE91E000D29D31 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		51948E1B1AEE91E000D29D31 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		51DA48821AEE7FC200931C49 /* SplitCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DA48861AEE7FC200931C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51DA48871AEE7FC200931C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,12 @@
 		51DA489B1AEE7FC200931C49 /* SplitCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DA48A01AEE7FC200931C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51DA48A11AEE7FC200931C49 /* SplitCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplitCodeTests.m; sourceTree = "<group>"; };
+		51DA48B01AEE828B00931C49 /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		51DA48B11AEE828B00931C49 /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		51DA48B31AEE82A000931C49 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		51DA48B41AEE82A000931C49 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		51DA48B61AEE82AB00931C49 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		51DA48B71AEE82AB00931C49 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		51DA48841AEE7FC200931C49 /* SplitCode */ = {
 			isa = PBXGroup;
 			children = (
+				51DA48AF1AEE828B00931C49 /* Controllers */,
 				51DA48891AEE7FC200931C49 /* AppDelegate.h */,
 				51DA488A1AEE7FC200931C49 /* AppDelegate.m */,
 				51DA488C1AEE7FC200931C49 /* ViewController.h */,
@@ -117,6 +130,21 @@
 				51DA48A01AEE7FC200931C49 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51DA48AF1AEE828B00931C49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51DA48B01AEE828B00931C49 /* SplitViewController.h */,
+				51DA48B11AEE828B00931C49 /* SplitViewController.m */,
+				51DA48B31AEE82A000931C49 /* SelectViewController.h */,
+				51DA48B41AEE82A000931C49 /* SelectViewController.m */,
+				51DA48B61AEE82AB00931C49 /* ColorViewController.h */,
+				51DA48B71AEE82AB00931C49 /* ColorViewController.m */,
+				51948E1A1AEE91E000D29D31 /* NavigationViewController.h */,
+				51948E1B1AEE91E000D29D31 /* NavigationViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +249,11 @@
 			files = (
 				51DA488E1AEE7FC200931C49 /* ViewController.m in Sources */,
 				51DA488B1AEE7FC200931C49 /* AppDelegate.m in Sources */,
+				51948E1C1AEE91E000D29D31 /* NavigationViewController.m in Sources */,
+				51DA48B81AEE82AB00931C49 /* ColorViewController.m in Sources */,
 				51DA48881AEE7FC200931C49 /* main.m in Sources */,
+				51DA48B51AEE82A000931C49 /* SelectViewController.m in Sources */,
+				51DA48B21AEE828B00931C49 /* SplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +446,7 @@
 				51DA48A71AEE7FC200931C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51DA48A81AEE7FC200931C49 /* Build configuration list for PBXNativeTarget "SplitCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +455,7 @@
 				51DA48AA1AEE7FC200931C49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
