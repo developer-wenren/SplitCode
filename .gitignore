@@ -10,7 +10,7 @@ build/
 xcuserdata
 *.xccheckout
 *.moved-aside
-DerivedData
+DerivedData/
 *.hmap
 *.ipa
 *.xcuserstate
@@ -27,3 +27,20 @@ DerivedData
 *.xcuserstate
 
 *.1
+DerivedData/SplitCode/Index/Debug/iphoneos8.1-arm64/SplitCode.xcindex/db.xcindexdb-wal
+
+*.xcindexdb-shm
+
+*.xcindexdb
+
+*.xcindexdb
+
+*.xcindexdb
+
+*.xcindexdb
+
+*.xcindexdb-shm
+
+*.strings-cmp
+
+*.strings-file
